@@ -76,8 +76,8 @@ body {
 
 /* Main body styles */
 
-/* Manu style */
-.manu {
+/* Menu style */
+.menu {
     width: 312px;
     height: 312px;
     background-color: #161616;
@@ -85,7 +85,7 @@ body {
     padding-top: 30px;
 }
 
-.manu a {
+.menu a {
     text-decoration: none;
     background-color: #FFFFFF;
     display: block;
