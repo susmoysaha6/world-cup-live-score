@@ -124,66 +124,49 @@ body {
 
 
 /* Blog section  */
-.blogs {
+.matches {
     margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
 
-.blog {
+.match {
     width: 312px;
-    height: 362px;
+    height: 242px;
+    padding-top: 50px;
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightgrey;
 
 }
 
-.blog img {
+.match img {
     width: 100%;
 }
 
-.blog-detail {
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
-
-
-.blog-detail button {
-    background-color: #FFFFFF;
-    width: 100px;
-    height: 32px;
-    size: 16px;
-    font-weight: 500;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-}
-
-.time-chat-icons {
+.flags {
     display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
+    justify-content: space-evenly;
 }
 
-.time-chat-icons p {
+.teams-names {
     display: flex;
-    align-items: center;
-    margin-right: 50px;
-    margin-left: 10px;
-    padding-right: 20px;
+    justify-content: space-evenly;
 }
 
-.time-chat-icons p img {
-    padding-right: 10px;
+.match-time {
+    color: rgba(77, 77, 77, 1);
+    text-align: center;
 }
+
 
 /* View all button */
 .view-all {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 
 .view-all button {
