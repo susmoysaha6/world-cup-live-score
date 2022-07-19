@@ -4,6 +4,72 @@
 /* common styles */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 
 /* header style  */
+.header {
+    height: 646px;
+    width: 90%;
+    background-color: #161616;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    transition: height 1s, width 1s, margin-left 1s, margin-right 1s, background-color 1s;
+}
+
+.header:hover {
+    /* height: 700px; */
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: gray;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-width {
+    width: 40%;
+    margin: 0 5%;
+}
+
+
+
+.half-width h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: auto;
+}
+
+.half-width p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.half-width img {
+    width: 98%;
+    margin-top: 50px;
+}
+
+
+
+.live-button {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
