@@ -126,8 +126,8 @@ body {
 }
 
 .blog {
-    /* width: 312px;
-    height: 362px; */
+    width: 312px;
+    height: 362px;
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightgrey;
