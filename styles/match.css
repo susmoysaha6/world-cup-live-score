@@ -43,9 +43,9 @@ body {
 
 
 .half-width h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 76px;
+    line-height: 60px;
     margin-bottom: auto;
 }
 
@@ -219,7 +219,7 @@ body {
 
 /* Media quaries */
 /* for mobile devices */
-@media screen and (max-width:576px) {
+@media screen and (max-width:688px) {
     .header {
         margin-bottom: 24px;
     }
@@ -317,16 +317,15 @@ body {
 
 /* for tablet */
 
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and (min-width:688px) and (max-width:992px) {
     .header {
         margin-bottom: 24px;
     }
 
     .half-width h1 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 33px;
         padding: 20px;
-
     }
 
 
